@@ -1,8 +1,6 @@
 //var hiddenContent = $()
 
 
-
-
 //* $(".readMore").click(
  // function(event) {
    // event.preventDefault(){
@@ -22,35 +20,40 @@ $(document).ready(function(){
 
   $(".readmore").click(function(){
       $("#show-this-on-click").slideDown(2000);
-  });
-
-  $(".readmore").click(function(){
       $(".readless").slideDown(2000);
+      $(".readmore").hide();
   });
 
-  $(".readmore").click(function(){
-    $(".readmore").hide();
-  });
+  //$(".readmore").click(function(){
+    //  $(".readless").slideDown(2000);
+  //});
+
+  //$(".readmore").click(function(){
+   // $(".readmore").hide();
+  //});
 
   $(".readless").click(function(){
     $("#show-this-on-click").slideUp(2000);
-  });
-
-  $(".readless").click(function(){
     $(".readmore").show(2000);
-  });
-
-  $(".readless").click(function(){
     $(".readless").hide();
   });
 
-  $(".learnmore").click(function(){
-    $("#learnmoretext").slideDown(2000);
-  });
+  //$(".readless").click(function(){
+   // $(".readmore").show(2000);
+  //});
+
+  //$(".readless").click(function(){
+   // $(".readless").hide();
+  //});
 
   $(".learnmore").click(function(){
+    $("span").slideDown(2000);
     $(".learnmore").hide();
   });
+
+  //$(".learnmore").click(function(){
+   // $(".learnmore").hide();
+  //});
 
 
 });
