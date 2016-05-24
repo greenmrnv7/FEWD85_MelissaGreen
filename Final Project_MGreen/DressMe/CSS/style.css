@@ -54,7 +54,8 @@ body {
   background: #EDE1E4;
   width: 100%;
 }
-a {
+
+li a {
   text-decoration: none;
   color: white;
 }
@@ -74,6 +75,11 @@ a {
   overflow: hidden;
   margin: 0 auto;
   background: #72919C;
+}
+
+.nav-wrap {
+  position: fixed;
+  width: 100%;
 }
 
 .logo-style {
@@ -97,9 +103,101 @@ h1 {
 }
 
 .main-image {
-  height: 400px;
-  background-image: url(../Images/Main.Image.jpg) no-repeat center top rgb(134,141,157);
+  height: 500px;
+  background: url(../Images/main_div_image.jpg) no-repeat top center #EDE1E4;
   background-size: cover;
+  padding-top: 100px;
+}
+
+#main {
+  font-size: 20px;
+  background-color: #fff;
+  opacity: .60;
+  color: #262626;
+  position: static;
+  width: 450px;
+  padding: 20px;
+  display: inline-block;
+  margin-left: 175px;
+  margin-top: 50px;
+}
+
+.how-it-works {
+  font-size: 20px;
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  color: #262626;
+  text-align: center;
+  padding: 50px;
+  display: inline-block;
+}
+
+.nav-wrap {
+  position: fixed;
+  width: 100%;
+}
+
+.contact-image {
+  height: 400px;
+  background: url(../Images/contact_image.jpg) no-repeat top center #EDE1E4;
+  background-size: cover;
+}
+
+#contact {
+  font-size: 20px;
+  color: white;
+  position: static;
+  width: 450px;
+  margin-left: 850px;
+  margin-top: 25px;
+}
+
+.contact-headline {
+  background-color: #fff;
+  opacity: .75;
+  color: #262626;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
 
 }
 
+.contact-button {
+  background: #EDE1E4;
+  border-radius: 5px;
+  width: 15%;
+  height: 50px;
+  line-height: 30px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #262626;
+  margin-left: 850px;
+  margin-top: 30px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+p a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.footer-logo {
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  padding: 25px;
+  color: #262626;
+
+}
+
+.footer {
+  height: 300px;
+  color: #262626;
+  text-align: center;
+  margin: 75px;
+
+}
