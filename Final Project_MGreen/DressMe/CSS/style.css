@@ -60,6 +60,11 @@ li a {
   color: white;
 }
 
+.section a {
+  text-decoration: none;
+  color: white;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -75,10 +80,14 @@ li a {
   overflow: hidden;
   margin: 0 auto;
   background: #72919C;
+  opacity: .70;
+  width: 100%;
 }
 
-.nav-wrap {
-  position: fixed;
+/*how do I just make the nav bar with links stick without leaving a gap above where the logo sits? JS? */
+
+#nav-wrap {
+  top: 0;
   width: 100%;
 }
 
@@ -118,8 +127,12 @@ h1 {
   width: 450px;
   padding: 20px;
   display: inline-block;
-  margin-left: 175px;
+  margin-left: 155px;
   margin-top: 50px;
+}
+
+span {
+  font-weight: 600;
 }
 
 .how-it-works {
@@ -131,6 +144,21 @@ h1 {
   text-align: center;
   padding: 50px;
   display: inline-block;
+}
+
+.how-it-works-button {
+  background-color: #EDE1E4;
+  border-radius: 5px;
+  width: 20%;
+  height: 50px;
+  line-height: 30px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #262626;
+  margin-top: 30px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
 }
 
 .nav-wrap {
@@ -154,13 +182,12 @@ h1 {
 }
 
 .contact-headline {
-  background-color: #fff;
-  opacity: .75;
-  color: #262626;
+  background-color: #72919C;
+  color: white;
   text-align: center;
   position: relative;
   display: inline-block;
-  padding: 20px;
+  padding: 15px;
   width: 100%;
 
 }
@@ -186,18 +213,105 @@ p a {
   color: #262626;
 }
 
+span a {
+  text-decoration: none;
+  color: #262626;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-page {
+  height: 400px;
+  background: url(../Images/about_page_hero.jpg) no-repeat top center #EDE1E4;
+  background-size: cover;
+  padding-bottom: 25px;
+}
+
+.about-page-style {
+  background: #fff;
+  color: #262626;
+  font-size: 30px;
+  padding: 40px;
+  text-align: center;
+}
+
+.section {
+  height: 550px;
+  background: #fff;
+}
+
+.section-1-style {
+  color: #262626;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+}
+
+.section-2-style {
+  color: #262626;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+}
+
+#section-header {
+  color: #262626;
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+div img {
+  width: 70%;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding-top: 280px;
+}
+
+span h1 {
+  font-weight: 300;
+  color: #72919C;
+}
+
+#sign-up-button {
+  background-color: #72919C;
+  border-radius: 5px;
+  width: 20%;
+  height: 50px;
+  line-height: 30px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 30px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
 .footer-logo {
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
-  padding: 25px;
+  margin-top: 85px;
   color: #262626;
 
 }
 
 .footer {
-  height: 300px;
+  height: 150px;
   color: #262626;
   text-align: center;
-  margin: 75px;
 
 }
