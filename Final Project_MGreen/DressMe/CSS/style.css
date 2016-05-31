@@ -62,7 +62,6 @@ li a {
 
 .section a {
   text-decoration: none;
-  color: white;
 }
 
 
@@ -239,14 +238,14 @@ h1 a {
 }
 
 .about-page {
-  height: 400px;
+  height: 300px;
   background: url(../Images/about_page_hero.jpg) no-repeat top center #EDE1E4;
   background-size: cover;
   padding-bottom: 25px;
 }
 
 .contact-page {
-  height: 400px;
+  height: 300px;
   background: url(../Images/contact_main_hero.jpg) no-repeat top center #EDE1E4;
   background-size: cover;
   display: flex;
@@ -262,14 +261,14 @@ h1 a {
 }
 
 .signin-page {
-  height: 400px;
   background: url(../Images/signin_main_hero.jpg) no-repeat top center #EDE1E4;
   background-size: cover;
   padding-bottom: 25px;
+  height: 300px;
 }
 
 .how-it-works-page {
-  height: 400px;
+  height: 300px;
   background: url(../Images/how_it_works_hero.jpg) no-repeat top center #EDE1E4;
   background-size: cover;
   padding-top: 25px;
@@ -284,7 +283,6 @@ h1 a {
 }
 
 .signin-page-style {
-  background: #fff;
   color: #262626;
   font-size: 20px;
   padding: 40px;
@@ -292,13 +290,11 @@ h1 a {
   width: 50%;
   float: left;
   margin: 0 auto;
-  height: 300px;
+  overflow: hidden;
   border-right: solid #EDE1E4;
-  padding-bottom: 10px;
 }
 
 .create-account-style {
-  background: #fff;
   color: #262626;
   font-size: 20px;
   padding: 40px;
@@ -307,11 +303,146 @@ h1 a {
   float: right;
   overflow: hidden;
   margin: 0 auto;
+}
+
+.contact-form {
+  background: #fff;
+  height: 500px;
+  color: #262626;
+}
+
+#contact-form-div {
+  background: #fff;
+  height: 550px;
+}
+
+.contact-form-style {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 270px;
+    width: 40%;
+    background: #72919C;
+    opacity: .80;
+    padding: 20px 30px 20px 30px;
+    font: 16px;
+    color: #262626;
+    border: none;
+    position: absolute;
+}
+
+.contact-form-style h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #fff;
+    margin: -10px -30px 30px -30px;
+    color: white;
+}
+.contact-form-style h1>span {
+    display: block;
+    font-size: 16px;
+}
+.contact-form-style label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.contact-form-style label>span {
+    width: 20%;
+    text-align: left;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contact-form-style input[type="text"], .contact-form-style input[type="email"], .contact-form-style textarea {
+    border: none;
+    color: #525252;
+    height: 25px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background: #DFDFDF;
+}
+
+.contact-form-style textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+
+.contact-form-style .message-button {
+    background: #EDE1E4;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #262626;
+    width: 40%;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.contact-form-style .message-button:hover {
+    color: #fff;
+    background-color: #363334;
+}
+
+#message {
+  width: 96%;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  width: 70%;
+}
+
+input[type=text] .message-field {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  display: inline;
+}
+
+input[type=text]:focus {
+  background-color: #EDE1E4;
+  color: #262626;
+}
+
+.dressme-tool-main {
   height: 300px;
-  padding-bottom: 10px;
+  background: url(../Images/dressme_hero.jpg) no-repeat top center #EDE1E4;
+  background-size: cover;
+  padding-top: 25px;
+}
+
+.dressme-tool-style {
+  background: #fff;
+  color: #262626;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center
+}
+
+.main-section {
+  height: 300px;
+  background: #fff;
+  margin: 0 auto;
 }
 
 .section {
+  height: 400px;
+  background: #fff;
+}
+
+.howitworkssection {
   height: 550px;
   background: #fff;
 }
@@ -350,13 +481,14 @@ div img {
   padding-top: 280px;
 }
 
+
 span h1 {
   font-weight: 300;
   color: #72919C;
 }
 
 #sign-up-button {
-  background-color: #72919C;
+  background-color: #EDE1E4;
   border-radius: 5px;
   width: 30%;
   height: 50px;
@@ -396,14 +528,15 @@ span h1 {
 .footer-logo {
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
-  padding-top: 85px;
   color: #262626;
 
 }
 
 .footer {
-  height: 150px;
+  height: 200px;
   color: #262626;
   text-align: center;
-
+  padding-top: 85px;
+  margin: 0 auto;
 }
+
