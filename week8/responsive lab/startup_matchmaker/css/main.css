@@ -286,14 +286,13 @@ footer {
 	text-decoration: none;
 	border-bottom: 3px solid yellow;
 }
-touts {
+.touts {
 	background: #EEE;
 	background: white;
 	overflow: hidden;
 	padding: 2% 0;
 }
 .tout {
-	float: left;
 	width: 100%;
 	padding: 2% 3%;
 	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
