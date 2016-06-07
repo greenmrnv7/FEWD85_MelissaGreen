@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 1024px) and (min-width: 769px) {
+@media only screen and (max-width: 1024px) and (min-width: 991px) {
 
 .container {
   width: 1024px;
@@ -244,7 +244,7 @@ input[type=text]:focus {
 
 .dressme-tool-main {
   height: 300px;
-  background: url(../Images/dressme_hero.jpg) no-repeat top center #EDE1E4;
+  background: url(../Images/dressmetool_main.jpg) no-repeat top center #EDE1E4;
   background-size: cover;
   padding-top: 25px;
 }
