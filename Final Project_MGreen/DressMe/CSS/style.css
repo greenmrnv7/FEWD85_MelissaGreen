@@ -64,6 +64,10 @@ li a {
   text-decoration: none;
 }
 
+.section {
+  height: 400px;
+  background: #fff;
+}
 
 /******************************************
 /* LAYOUT
@@ -105,10 +109,112 @@ li {
   text-align: center;
 }
 
+.menu-btn div {
+  position: absolute;
+  left:100%;
+  top: 64%;
+  padding-right: 8px;
+  margin-top: -.50em;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  z-index: 99;
+}
+
+.menu-btn span {
+  display: none;
+  width: 19px;
+  height: 3px;
+  margin: 4px 0;
+  background: rgb(0,0,0);
+  z-index: 99;
+}
+
+.responsive-menu {
+  display: none;
+}
+
+.expand {
+  display: block !important;
+  background: #72919c;
+  padding-top: 50px;
+}
+
 h1 {
   text-align: center;
   font-size: 36px
 }
+
+p a {
+  text-decoration: none;
+  color: #262626;
+}
+
+span a {
+  text-decoration: none;
+  color: #262626;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.section-1-style {
+  color: #262626;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+}
+
+.section-2-style {
+  color: #262626;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+}
+
+#section-header {
+  color: #262626;
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer img {
+  width: 15%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  display: inline;
+  left: 50%;
+  margin-right: 85%;
+}
+
+span h1 {
+  font-weight: 300;
+  color: #72919C;
+}
+
+.footer-logo {
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color: #fff;
+
+}
+
+.footer {
+  height: 300px;
+  color: #fff;
+  background: #363334;
+  text-align: center;
+  padding-top: 85px;
+  margin: 0 auto;
+}
+
+/*INDEX / HOME PAGE*/
 
 .main-image {
   height: 500px;
@@ -145,29 +251,10 @@ span {
   display: inline-block;
 }
 
-.hideme {
-  opacity: 0;
-}
-
 .how-it-works-button {
   background-color: #EDE1E4;
   border-radius: 5px;
   width: 20%;
-  height: 50px;
-  line-height: 30px;
-  box-sizing: border-box;
-  font-size: 20px;
-  color: #262626;
-  margin-top: 30px;
-  padding: 10px;
-  display: inline-block;
-  text-align: center;
-}
-
-.sign-up-button {
-  background-color: #EDE1E4;
-  border-radius: 5px;
-  width: 40%;
   height: 50px;
   line-height: 30px;
   box-sizing: border-box;
@@ -226,20 +313,7 @@ span {
   text-align: center;
 }
 
-p a {
-  text-decoration: none;
-  color: #262626;
-}
-
-span a {
-  text-decoration: none;
-  color: #262626;
-}
-
-h1 a {
-  text-decoration: none;
-  color: white;
-}
+/* ABOUT PAGE */
 
 .about-page {
   height: 300px;
@@ -247,6 +321,31 @@ h1 a {
   background-size: cover;
   padding-bottom: 25px;
 }
+
+.sign-up-button {
+  background-color: #EDE1E4;
+  border-radius: 5px;
+  width: 40%;
+  height: 50px;
+  line-height: 30px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #262626;
+  margin-top: 30px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.about-page-style {
+  background: #fff;
+  color: #262626;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+/* CONTACT PAGE */
 
 .contact-page {
   height: 550px;
@@ -269,51 +368,6 @@ h1 a {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
-}
-
-.signin-page {
-  background: url(../Images/signin_main_hero.jpg) no-repeat top center #EDE1E4;
-  background-size: cover;
-  padding-bottom: 25px;
-  height: 300px;
-}
-
-.how-it-works-page {
-  height: 300px;
-  background: url(../Images/how_it_works_hero.jpg) no-repeat top center #EDE1E4;
-  background-size: cover;
-  padding-top: 25px;
-}
-
-.about-page-style {
-  background: #fff;
-  color: #262626;
-  font-size: 20px;
-  padding: 40px;
-  text-align: center;
-}
-
-.signin-page-style {
-  color: #262626;
-  font-size: 20px;
-  padding: 40px;
-  text-align: center;
-  width: 50%;
-  float: left;
-  margin: 0 auto;
-  overflow: hidden;
-  border-right: solid #EDE1E4;
-}
-
-.create-account-style {
-  color: #262626;
-  font-size: 20px;
-  padding: 40px;
-  text-align: center;
-  width: 50%;
-  float: right;
-  overflow: hidden;
-  margin: 0 auto;
 }
 
 .contact-form {
@@ -421,32 +475,13 @@ input[type=text]:focus {
   color: #262626;
 }
 
-.dressme-tool-main {
-  height: 300px;
-  background: url(../Images/dressmetool_main.jpg) no-repeat top center #EDE1E4;
+/* SIGNIN PAGE */
+
+.signin-page {
+  background: url(../Images/signin_main_hero.jpg) no-repeat top center #EDE1E4;
   background-size: cover;
-  padding-top: 25px;
-}
-
-.dressme-tool-style {
-  background: #fff;
-  color: #262626;
-  font-size: 20px;
-  padding: 40px;
-  text-align: center
-}
-
-.dressme-tool-style img {
-  width: 25%;
-  left: -60%;
-  margin-top: 130px;
-}
-
-.dressme-tool-style a {
-  position: absolute;
-  padding-top: 500px;
-  margin-right: 300px;
-  margin-left: 90px;
+  padding-bottom: 25px;
+  height: 300px;
 }
 
 .main-section {
@@ -455,62 +490,27 @@ input[type=text]:focus {
   margin: 0 auto;
 }
 
-.section {
-  height: 400px;
-  background: #fff;
-}
-
-.howitworkssection {
-  height: 550px;
-  background: #fff;
-}
-
-.section-1-style {
+.signin-page-style {
   color: #262626;
-  font-size: 30px;
-  text-align: center;
+  font-size: 20px;
   padding: 40px;
-}
-
-.section-2-style {
-  color: #262626;
-  font-size: 30px;
   text-align: center;
-  padding-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 50px;
+  width: 50%;
+  float: left;
+  margin: 0 auto;
+  overflow: hidden;
+  border-right: solid #EDE1E4;
 }
 
-#section-header {
+.create-account-style {
   color: #262626;
+  font-size: 20px;
+  padding: 40px;
   text-align: center;
-  padding-top: 40px;
-}
-
-
-div img {
-  width: 80%;
-  margin: 0;
-  position: relative;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  padding-top: 280px;
-}
-
-footer img {
-  width: 15%;
-  position: relative;
-  transform: translate(-50%, -50%);
-  display: inline;
-  left: 50%;
-  margin-right: 85%;
-}
-
-span h1 {
-  font-weight: 300;
-  color: #72919C;
+  width: 50%;
+  float: right;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 #sign-up-button {
@@ -551,19 +551,63 @@ span h1 {
   transform: translate(-50%, -50%);
 }
 
-.footer-logo {
-  font-family: 'Julius Sans One', sans-serif;
-  text-align: center;
-  color: #fff;
+/* HOW IT WORKS PAGE */
 
+.how-it-works-page {
+  height: 300px;
+  background: url(../Images/how_it_works_hero.jpg) no-repeat top center #EDE1E4;
+  background-size: cover;
+  padding-top: 25px;
 }
 
-.footer {
+.hideme {
+  opacity: 0;
+}
+
+.howitworkssection {
+  height: 550px;
+  background: #fff;
+}
+
+div img {
+  width: 80%;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding-top: 280px;
+}
+
+/* DRESSME TOOL PAGE */
+
+.dressme-tool-main {
   height: 300px;
-  color: #fff;
-  background: #363334;
-  text-align: center;
-  padding-top: 85px;
-  margin: 0 auto;
+  background: url(../Images/dressmetool_main.jpg) no-repeat top center #EDE1E4;
+  background-size: cover;
+  padding-top: 25px;
+}
+
+.dressme-tool-style {
+  background: #fff;
+  color: #262626;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center
+}
+
+.dressme-tool-style img {
+  width: 25%;
+  left: -13%;
+  margin-top: 20%;
+  padding: 5px;
+}
+
+.dressme-tool-style a {
+  position: absolute;
+  padding-top: 35%;
+  margin-left: 10%;
+  text-decoration: none;
+  color: #262626;
 }
 

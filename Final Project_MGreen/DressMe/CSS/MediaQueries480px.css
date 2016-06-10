@@ -21,8 +21,8 @@ li {
   display: inline-block;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 30px;
+  padding-left: 42px;
   text-align: center;
   }
 
@@ -96,6 +96,52 @@ li {
 .nav-wrap {
   position: fixed;
   width: 100%;
+}
+
+.nav-style {
+  display: none;
+}
+
+.mobile-nav {
+  height: 48px;
+  background: #72919C;
+  opacity: .70;
+}
+
+.menu-btn div {
+  position: relative;
+  right: 100%;
+  padding-right: 8px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  z-index: 99;
+}
+
+.menu-btn span {
+  display: block;
+  width: 40px;
+  height: 6px;
+  margin: 4px 0;
+  background: #fff;
+  z-index: 99;
+}
+
+.menu-btn {
+  margin-left: 50%;
+  position: absolute;
+  margin-top: 17px;
+}
+
+.responsive-menu {
+  display: none;
+}
+
+.expand {
+  display: block !important;
+  background: #72919c;
+  padding-top: 50px;
 }
 
 .contact-image {
