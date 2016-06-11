@@ -569,7 +569,7 @@ input[type=text]:focus {
   background: #fff;
 }
 
-div img {
+.howitworkssection img {
   width: 80%;
   margin: 0;
   position: relative;
@@ -593,21 +593,27 @@ div img {
   color: #262626;
   font-size: 20px;
   padding: 40px;
-  text-align: center
+  text-align: center;
+  height: 600px;
 }
 
-.dressme-tool-style img {
-  width: 25%;
-  left: -13%;
-  margin-top: 20%;
-  padding: 5px;
+.dressme-images {
+  position: relative;
+  width: 100%;
 }
 
-.dressme-tool-style a {
-  position: absolute;
-  padding-top: 35%;
-  margin-left: 10%;
-  text-decoration: none;
-  color: #262626;
+#dressme-style img {
+  width: 20%;
+  display: inline-block;
+  float: right;
+  margin-top: 6%;
+  margin-right: 4%;
+  position: static;
 }
+
+#dressme-style {
+  clear: left;
+  margin-right: 20%;
+}
+
 

@@ -379,7 +379,27 @@ input[type=text]:focus {
   color: #262626;
   font-size: 20px;
   padding: 40px;
-  text-align: center
+  text-align: center;
+  height: 600px;
+}
+
+.dressme-images {
+  position: relative;
+  width: 100%;
+}
+
+#dressme-style img {
+  width: 20%;
+  display: inline-block;
+  float: right;
+  margin-top: 6%;
+  margin-right: 4%;
+  position: static;
+}
+
+#dressme-style {
+  clear: left;
+  margin-right: 20%;
 }
 
 .main-section {
