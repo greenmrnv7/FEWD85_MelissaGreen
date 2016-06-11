@@ -616,4 +616,8 @@ input[type=text]:focus {
   margin-right: 20%;
 }
 
+#buy-button {
+  height: 60px;
+}
+
 
