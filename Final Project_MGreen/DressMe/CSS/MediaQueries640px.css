@@ -377,6 +377,29 @@ input[type=text]:focus {
   text-align: center
 }
 
+.dressme-tool-style {
+  background: #fff;
+  color: #262626;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center
+  height: 300px;
+}
+
+#dressme-style img {
+  width: 96%;
+  display: inline-block;
+  float: right;
+  margin-top: 113%;
+  margin-right: -85%;
+  padding: 0px;
+  position: static;
+}
+
+#dressme-style {
+  display: flex;
+}
+
 .main-section {
   height: 300px;
   background: #fff;

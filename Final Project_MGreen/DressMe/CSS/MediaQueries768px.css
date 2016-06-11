@@ -402,6 +402,29 @@ input[type=text]:focus {
   margin-right: 20%;
 }
 
+.dressme-tool-style {
+  background: #fff;
+  color: #262626;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center;
+  height: 600px;
+}
+
+#dressme-style img {
+  width: 78%;
+  display: inline-block;
+  float: right;
+  margin-top: 85%;
+  margin-right: -72%;
+  padding: 0px;
+  position: static;
+}
+
+#dressme-style {
+  display: flex;
+}
+
 .main-section {
   height: 300px;
   background: #fff;

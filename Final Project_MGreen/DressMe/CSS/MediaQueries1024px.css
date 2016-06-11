@@ -249,12 +249,32 @@ input[type=text]:focus {
   padding-top: 25px;
 }
 
+#dressme-style {
+  clear: left;
+  margin-right: 20%;
+}
+
 .dressme-tool-style {
   background: #fff;
   color: #262626;
   font-size: 20px;
   padding: 40px;
-  text-align: center
+  text-align: center;
+  height: 685px;
+}
+
+#dressme-style img {
+  width: 78%;
+  display: inline-block;
+  float: right;
+  margin-top: 85%;
+  margin-right: -72%;
+  padding: 0px;
+  position: static;
+}
+
+#dressme-style {
+  display: flex;
 }
 
 .main-section {
